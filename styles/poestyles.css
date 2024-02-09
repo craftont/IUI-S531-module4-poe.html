@@ -1,0 +1,34 @@
+body {
+max-width: 60em;
+margin: 0 auto 0 auto;
+}
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #000;
+padding: 1em;
+}
+
+/* This CSS style positions the image towards the bottom of the page, outside of standard flow */
+.image {
+    height: 400px;
+    width: 300px;
+    background-image: url("poe.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 500px;
+    right: 250px;
+}
+
+/* The following two CSS styles adjust the font characteristics of the header and subsequent paragraphs */
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
